@@ -21,6 +21,22 @@ class MyClass2 {
   MyClass2() {
     ///  default constructor
     print("default constructor");
+  }
+
+  void printInfo() {
+    /// print the the name and the number
+    print(name);
+    print(number);
+  }
+}
+
+class MyClass3 {
+  String? name;
+  int? number;
+
+  MyClass3() {
+    ///  default constructor
+    print("default constructor");
     name = 'Default Name';
     number = 222;
   }
@@ -38,4 +54,7 @@ void main() {
 
   MyClass2 obj2 = MyClass2();
   obj2.printInfo();
+
+  MyClass3 obj3 = MyClass3();
+  obj3.printInfo();
 }
