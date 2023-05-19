@@ -8,6 +8,7 @@ class MyClass1 {
   }
 
   void printInfo() {
+    /// print the the name and the number
     print(name);
     print(number);
   }
@@ -25,6 +26,7 @@ class MyClass2 {
   }
 
   void printInfo() {
+    /// print the the name and the number
     print(name);
     print(number);
   }
