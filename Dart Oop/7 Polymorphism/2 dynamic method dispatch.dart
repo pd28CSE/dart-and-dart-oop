@@ -2,10 +2,14 @@ abstract class Base {
   int x;
   Base({required this.x});
 
+  /// concrete method
+  // A concrete method means, the method has complete definition
+  //but it can be overridden in the inherited class.
   void fnc() {
     print('Base fnc x: $x');
   }
 
+  /// abstract method
   int sum(int a, int b);
 }
 

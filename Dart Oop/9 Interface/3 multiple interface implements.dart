@@ -9,6 +9,9 @@ abstract class BaseClass1 {
   /// abstract method
   int mx(int a, int b);
 
+  /// concrete method
+  // A concrete method means, the method has complete definition
+  //but it can be overridden in the inherited class.
   void stop() {
     print('BaseClass1 stop method');
   }

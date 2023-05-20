@@ -12,6 +12,9 @@ abstract class Vehicle {
   /// Abstract method
   void stop();
 
+  /// concrete method
+  // A concrete method means, the method has complete definition
+  //but it can be overridden in the inherited class.
   void fnc() {
     print('From Vehicle class fnc function');
   }
