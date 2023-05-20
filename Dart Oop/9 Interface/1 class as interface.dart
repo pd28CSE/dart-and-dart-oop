@@ -19,6 +19,7 @@ class DerivedClass implements BaseClass {
     print('DerivedClass Constructor');
   }
 
+  /// implementation of fnc()
   @override
   void fnc() {
     print('From BaseClass fnc function. Name: $name a: ${this.a}');
