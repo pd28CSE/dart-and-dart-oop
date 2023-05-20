@@ -43,6 +43,26 @@ class Bike extends Vehicle {
   }
 }
 
+class Track extends Vehicle {
+  /// Implementation of start()
+  @override
+  void start() {
+    print('Track started');
+  }
+
+  /// Implementation of stop()
+  @override
+  void stop() {
+    print('Track stopped');
+  }
+
+  @override
+  void fnc() {
+    super.fnc();
+    print('From Track class fnc function. Running..');
+  }
+}
+
 void main() {
   Car car = Car();
   car.start();
@@ -53,4 +73,9 @@ void main() {
   bike.start();
   bike.fnc();
   bike.stop();
+
+  Track track = Track();
+  track.start();
+  track.fnc();
+  track.stop();
 }
