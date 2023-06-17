@@ -1,6 +1,7 @@
 # Dart and Ddart-OOP
 
 ## Dart
+-   Exception Handling
 -   Synchronous
 -   Asynchronous
 
