@@ -37,7 +37,7 @@ Future<String> getFullName() async {
   return 'Partho Debnath';
 }
 
-void printNameAndFullName() async {
+Future<void> printNameAndFullName() async {
   String name = await getName();
   print('Name: $name');
   String fullName = await getFullName();
@@ -66,7 +66,7 @@ Future<String> myFnc() {
   return Future.delayed(Duration(seconds: 4), () => 'Hello World.\n');
 }
 
-void checkValidity() async {
+Future<void> checkValidity() async {
   // String data = await isValidName('');
   // print(data);
 
