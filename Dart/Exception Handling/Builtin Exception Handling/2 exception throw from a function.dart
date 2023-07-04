@@ -1,12 +1,12 @@
 void main() {
   try {
-    vote(-17);
+    vote(17);
   } catch (error) {
     print('Error : $error');
   }
 
   try {
-    double x = divided(10, 0);
+    double x = divided(10, 10);
     print(x);
   } catch (error) {
     print('Error : $error');
