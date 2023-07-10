@@ -7,6 +7,8 @@ void main() {
 
   final (double, int) x = getGravityAndspeedOfLight();
   print(x);
+  print(x.$1);
+  print(x.$2);
 
   var (g, s) = getGravityAndspeedOfLight();
   print(g);
