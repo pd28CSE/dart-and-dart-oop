@@ -1,5 +1,8 @@
 # Dart and Dart-OOP
 
+# Version
+Dart SDK version: 3.0.6 (stable)
+
 ## Dart
 -   Exception Handling
 -   Synchronous
