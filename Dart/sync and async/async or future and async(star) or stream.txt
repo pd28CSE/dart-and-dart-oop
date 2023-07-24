@@ -1,0 +1,7 @@
+https://youtu.be/-zNC2hWftho
+
+1. async
+    -> async gives you a Future
+
+2. async*
+    -> async* gives you a Stream
